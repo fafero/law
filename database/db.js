@@ -38,7 +38,7 @@ const db = {};
 const dbinfo = new Sequelize("lawstyle", "root", '', {
     host: "localhost",
     dialect: "mysql",
-    // port: 3306,
+    port: 3306,
     operatorsAliases: false,
     pool: {
         max: 5,

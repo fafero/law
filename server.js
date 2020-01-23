@@ -67,7 +67,7 @@ const cors = require("cors");
 /** that the  port where you can call to use you server in local **/
 
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3000;
 
 // app = express
 const app = express();
